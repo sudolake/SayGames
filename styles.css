@@ -1,0 +1,157 @@
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+
+#title{background-color:cornflowerblue;}
+
+
+
+
+    
+
+
+.phone{
+    width: 50%;
+    transform: rotate(10deg);
+     margin-bottom: 60px;
+    margin-left: 180px;
+    position: relative;
+    bottom: 25px;
+    margin-top:30px;
+}
+.icon{
+    font-size:50px;
+    margin-bottom: 18px;
+    color:#ef8172;
+}
+.featurehead{
+    margin-bottom: 1.1rem;
+    font-weight: 900;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.featuretext{
+    font-weight: 500;
+    color: #8f8f8f;
+    font-size: 1rem;
+
+}
+.contactp{font-size: 1rem;}
+.contacthead{
+    font-weight: 700;
+    font-size: 2rem;}
+
+
+    
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family:'Montserrat';
+    font-weight: 300;
+
+}
+.nav-item{padding: 0 18px;}
+
+.download-button{margin: 5% 3% 5% 0;}
+
+
+/* ICONS */
+
+
+.icon:hover{color: #ff4c68;}
+
+
+
+.feature-margin{margin-top: 70px;margin-bottom: 50px;}
+
+
+
+/* courusel */
+
+.h1center{
+    text-align: center;
+    color:white;
+    margin-bottom: 0;
+    font-family: 'Varela', sans-serif;
+}
+
+.car_image{
+    margin: 30px auto 30px auto;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 109px;
+}
+
+
+.car-buttons{
+    text-align: center;
+    margin-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.corousel-color{background-color: cornflowerblue;}
+
+
+.see-all{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    
+}
+/* CONTACT SECTIOn */
+
+
+
+.email{
+    text-decoration: none;
+    color: black;
+}    
+
+
+
+
+
+
+    /* FOOTER */
+.footercss{
+    background-color: #d4e2d4;
+    text-align: center;
+    
+
+}
+
+.footer-icon{
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.bighead{font-size:3.5rem}
+
+
+@media (max-width: 1028px){
+    .footer-icon{font-size:4rem}
+    .footer-p{font-size:1.6rem}
+    .phone{
+        transform: rotate(0);
+        position: relative;
+        right: 5.125rem;
+    }
+    .btn-lg{font-size:2rem!important;}
+
+    #title{text-align: center;}
+    .icon{
+        font-size:80px;
+
+    }
+    .featurehead{font-size: 3.2rem}
+    .featuretext{font-size:1.6rem}
+    .contactp{font-size:1.6rem}
+    .contacthead{font-size: 3.2rem;}
+    .bighead{font-size:4.8rem}
+}
